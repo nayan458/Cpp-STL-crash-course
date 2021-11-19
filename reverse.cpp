@@ -7,8 +7,8 @@ int main(){
 	
 reverse(v.begin(),v.end());
 	
-	for(int i=0;i<v.size();i++)
-	cout<<v[i]<<" ";                  
+	for(auto it : v)
+	cout<<it<<" ";                  
 	// 0 6 5 2 1 3
 	cout<<endl;
 	
